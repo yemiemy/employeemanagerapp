@@ -6,22 +6,26 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## About the App
+The Employee Manager App is an app that manages employees. It is being served by a Spring-boot backend. 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Functionalities of the app
+- Add Employee: The admin can add employee by providing the following details: 
+    1. Employee full name 
+    2. Employee email address
+    3. Employee phone number
+    4. Employee job title.
 
-## Build
+    The following fields will be auto generated:
+    1. Employee code: This is a unique code that identifies an employee and it is auto-generated on the backend. This field is not editable.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Update Employee: The admin can update an employee by providing th updated employee info using the fields listed above.
 
-## Running unit tests
+- Delete Employee: The admin can remove an employee from the database upon dismissal of their employemnt or they leave the company.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## About the author
+Olaoluwayemi Rasheed
+[LinkedIn]("https://www.linkedin.com/in/olaoluwayemi-rasheed-059216177/")
+[Website]("https://bit.ly/rasholayemidev")
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Thank you!
