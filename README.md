@@ -25,7 +25,7 @@ The Employee Manager App is an app that manages employees. It is being served by
 
 ## About the author
 Olaoluwayemi Rasheed
-[LinkedIn]("https://www.linkedin.com/in/olaoluwayemi-rasheed-059216177/")
-[Website]("https://bit.ly/rasholayemidev")
+- [LinkedIn](https://www.linkedin.com/in/olaoluwayemi-rasheed-059216177/)
+- [Website](https://bit.ly/rasholayemidev)
 
 Thank you!
