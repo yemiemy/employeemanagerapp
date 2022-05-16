@@ -37,7 +37,7 @@ export class AppComponent implements OnInit {
     document.getElementById("add-employee-form").click();
     this.employeeService.addEmployee(addForm.value).subscribe(
       (response : Employee) => {
-        console.log(response);
+        // console.log(response);
         this.getEmployees();
         addForm.reset();
       },
@@ -51,7 +51,7 @@ export class AppComponent implements OnInit {
   public onUpdateEmployee(employee : Employee) : void {
     this.employeeService.updateEmployee(employee).subscribe(
       (response : Employee) => {
-        console.log(response);
+        // console.log(response);
         this.getEmployees();
       },
       (error : HttpErrorResponse) => {
